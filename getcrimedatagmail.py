@@ -53,7 +53,7 @@ def main():
 
     sys.stdout.flush()
     rows = 0
-
+    print("Report_Id,Crime_Type,"",Crime_Detail,Year_Key,Street_Address,Datetime")
 
     response = service.users().messages().list(userId=user_id,
                                                            labelIds=['Label_984599473385438091'],
